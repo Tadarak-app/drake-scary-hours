@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "Drake: Scary Hours — Zohaib Qaiser",
+  "short_name": "Scary Hours",
+  "description": "An offline tactical first-person shooter by Zohaib Qaiser.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#111517",
+  "theme_color": "#111517",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

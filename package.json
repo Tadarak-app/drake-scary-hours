@@ -1,0 +1,27 @@
+{
+  "name": "drake-scary-hours",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A browser-based first-person tactical survival shooter by Zohaib Qaiser.",
+  "author": "Zohaib Qaiser",
+  "copyright": "Copyright © 2026 Zohaib Qaiser. All rights reserved.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.21.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "playwright": "^1.63.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  },
+  "packageManager": "pnpm@10.18.0"
+}
