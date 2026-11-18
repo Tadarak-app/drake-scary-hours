@@ -1,5 +1,5 @@
-const CACHE = 'drake-scary-hours-v1'
-const CORE = ['./', './manifest.webmanifest', './favicon.png', './apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png', './share/cover.png']
+const CACHE = 'drake-scary-hours-v2'
+const CORE = ['./', './manifest.webmanifest', './brand-logo.svg', './favicon.png', './favicon-32.png', './apple-touch-icon.png', './icons/icon-192.png', './icons/icon-512.png', './share/cover.png']
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()))
 })

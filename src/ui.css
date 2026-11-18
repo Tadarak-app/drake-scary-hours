@@ -33,7 +33,7 @@ button { font: inherit; color: inherit; }
 .menu-screen::after { content: ""; position: absolute; inset: 0; pointer-events: none; border: 1px solid rgba(228,210,180,.2); margin: 12px; }
 .topline { position: absolute; z-index: 2; top: 29px; left: clamp(28px, 5vw, 76px); right: clamp(28px, 5vw, 76px); display: flex; align-items: center; justify-content: space-between; font: 11px var(--mono); letter-spacing: .18em; color: rgba(238,233,223,.74); text-transform: uppercase; }
 .brand-mark { display: flex; gap: 11px; align-items: center; }
-.brand-mark img { width: 33px; height: 33px; object-fit: cover; border-radius: 50%; border: 1px solid rgba(255,198,126,.66); }
+.brand-mark img { width: 38px; height: 38px; object-fit: contain; border-radius: 6px; border: 1px solid rgba(255,198,126,.66); background: #080b13; }
 .brand-mark b { color: var(--amber-bright); font-weight: 700; }
 .online-status { display: flex; align-items: center; gap: 8px; }
 .online-status::before { content: ""; width: 6px; height: 6px; background: #89b9a9; border-radius: 50%; box-shadow: 0 0 9px #78d8a6; }

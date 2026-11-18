@@ -58,7 +58,7 @@ export class GameUI {
       <div class="scan-lines" aria-hidden="true"></div>
       <section class="screen menu-screen" data-screen="menu">
         <div class="menu-backdrop"></div>
-        <div class="topline"><div class="brand-mark"><img src="/favicon.png" alt=""><span><b>FIELD UNIT</b> / BRAVO 7-1</span></div><div class="online-status">LOCAL OPERATION / OFFLINE</div></div>
+        <div class="topline"><div class="brand-mark"><img src="/brand-logo.svg" alt="Drake: Scary Hours logo"><span><b>DRAKE</b> / SCARY HOURS</span></div><div class="online-status">LOCAL OPERATION / OFFLINE</div></div>
         <div class="menu-content">
           <div class="title-block">
             <p class="eyebrow">Operation Black Tide · Port Meridian</p>

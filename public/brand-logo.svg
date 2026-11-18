@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512" fill="none">
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="promptGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <rect width="100" height="100" rx="22" fill="#090D16" />
+  <polygon points="50,12 84,31 84,69 50,88 16,69 16,31" stroke="#1E293B" stroke-width="3" fill="#0F172A" />
+  <path d="M35 32 H51 C63 32 70 39.5 70 50 C70 60.5 63 68 51 68 H35 V32 Z" stroke="url(#iconGrad)" stroke-width="5.5" stroke-linejoin="round" />
+  <path d="M44 43 L54 50 L44 57" stroke="url(#promptGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
